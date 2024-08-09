@@ -1,0 +1,44 @@
+.footer {
+    background-color: hsl(135, 88%, 23%); /* Color de fondo del footer */
+    padding: 20px 0; /* Espaciado interno (padding) */
+    text-align: center; /* Alinear el texto al centro */
+    color: rgb(252, 0, 0); /* Color del texto */
+    font-size: 14px; /* Tamaño de la fuente */
+    border-top: 1px solid #e9ecef; /* Borde superior */
+  }
+  
+  .footer .container {
+    display: flex; /* Usar flexbox para el layout */
+    justify-content: space-between; /* Espacio entre los elementos hijos */
+    align-items: center; /* Alinear verticalmente los elementos hijos */
+    flex-wrap: wrap; /* Permitir que los elementos se acomoden en varias líneas si es necesario */
+  }
+  
+  .footer .pull-left {
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  .footer .social-area {
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  .footer .btn {
+    margin: 0 5px; /* Espaciado entre los botones */
+    color: #e91010; /* Color de los íconos */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+  }
+  
+  .footer .btn:hover {
+    color: #00f7ff; /* Color al pasar el mouse */
+  }
+  
+  .footer .copyright {
+    font-size: 12px; /* Tamaño de la fuente del copyright */
+    margin-top: 10px; /* Espaciado superior */
+  }
+  
+  .footer .fa {
+    font-size: 18px; /* Tamaño de los íconos */
+  }
+  
